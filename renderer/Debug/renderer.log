@@ -1,0 +1,83 @@
+﻿生成启动时间为 2016/11/27 21:35:29。
+     1>项目“C:\Users\Liu Hanchao\Desktop\renderer\renderer\renderer.vcxproj”在节点 2 上(build 个目标)。
+     1>PrepareForBuild:
+         正在创建目录“C:\Users\Liu Hanchao\Desktop\renderer\Debug\”。
+       InitializeBuildStatus:
+         正在创建“Debug\renderer.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt camera.cpp main.cpp PathTracer.cpp scene.cpp spatialIndex.cpp Sphere.cpp Triangle.cpp utils.cpp Vec.cpp
+         Vec.cpp
+         utils.cpp
+         Triangle.cpp
+         Sphere.cpp
+         spatialIndex.cpp
+     1>c:\users\liu hanchao\desktop\renderer\renderer\spatialindex.cpp(3): warning C4005: “INF”: 宏重定义
+                 c:\users\liu hanchao\desktop\renderer\renderer\vec.h(4) : 参见“INF”的前一个定义
+     1>c:\users\liu hanchao\desktop\renderer\renderer\spatialindex.cpp(25): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\liu hanchao\desktop\renderer\renderer\spatialindex.cpp(66): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\liu hanchao\desktop\renderer\renderer\spatialindex.cpp(89): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\liu hanchao\desktop\renderer\renderer\spatialindex.cpp(106): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\liu hanchao\desktop\renderer\renderer\spatialindex.cpp(112): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\liu hanchao\desktop\renderer\renderer\spatialindex.cpp(229): warning C4018: “<”: 有符号/无符号不匹配
+         scene.cpp
+     1>c:\users\liu hanchao\desktop\renderer\renderer\scene.h(40): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“refl_t”
+     1>c:\users\liu hanchao\desktop\renderer\renderer\scene.h(42): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“refl_t”
+     1>c:\users\liu hanchao\desktop\renderer\renderer\scene.cpp(26): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“refl_t”
+     1>c:\users\liu hanchao\desktop\renderer\renderer\scene.cpp(45): warning C4018: “<”: 有符号/无符号不匹配
+         PathTracer.cpp
+     1>c:\users\liu hanchao\desktop\renderer\renderer\scene.h(40): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“refl_t”
+     1>c:\users\liu hanchao\desktop\renderer\renderer\scene.h(42): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“refl_t”
+         main.cpp
+     1>c:\users\liu hanchao\desktop\renderer\renderer\scene.h(40): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“refl_t”
+     1>c:\users\liu hanchao\desktop\renderer\renderer\scene.h(42): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“refl_t”
+         camera.cpp
+     1>c:\users\liu hanchao\desktop\renderer\renderer\scene.h(40): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“refl_t”
+     1>c:\users\liu hanchao\desktop\renderer\renderer\scene.h(42): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“refl_t”
+     1>c:\users\liu hanchao\desktop\renderer\renderer\camera.cpp(86): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>c:\users\liu hanchao\desktop\renderer\renderer\camera.cpp(145): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>c:\users\liu hanchao\desktop\renderer\renderer\camera.cpp(187): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+         正在生成代码...
+     1>c:\users\liu hanchao\desktop\renderer\renderer\pathtracer.cpp(84): warning C4715: “pathTracer::radiance”: 不是所有的控件路径都返回值
+     1>c:\users\liu hanchao\desktop\renderer\renderer\pathtracer.cpp(150): warning C4715: “pathTracer::radiance”: 不是所有的控件路径都返回值
+     1>c:\users\liu hanchao\desktop\renderer\renderer\vec.h(25): warning C4715: “Vec::operator[]”: 不是所有的控件路径都返回值
+     1>c:\users\liu hanchao\desktop\renderer\renderer\vec.h(25): warning C4715: “Vec::operator[]”: 不是所有的控件路径都返回值
+     1>c:\users\liu hanchao\desktop\renderer\renderer\vec.h(25): warning C4715: “Vec::operator[]”: 不是所有的控件路径都返回值
+       ManifestResourceCompile:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\renderer.exe.embed.manifest.res" Debug\renderer_manifest.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Liu Hanchao\Desktop\renderer\Debug\renderer.exe" /INCREMENTAL /NOLOGO opencv_ml2410d.lib opencv_calib3d2410d.lib opencv_contrib2410d.lib opencv_core2410d.lib opencv_features2d2410d.lib opencv_flann2410d.lib opencv_gpu2410d.lib opencv_highgui2410d.lib opencv_imgproc2410d.lib opencv_legacy2410d.lib opencv_objdetect2410d.lib opencv_ts2410d.lib opencv_video2410d.lib opencv_nonfree2410d.lib opencv_ocl2410d.lib opencv_photo2410d.lib opencv_stitching2410d.lib opencv_superres2410d.lib opencv_videostab2410d.lib opencv_objdetect2410.lib opencv_ts2410.lib opencv_video2410.lib opencv_nonfree2410.lib opencv_ocl2410.lib opencv_photo2410.lib opencv_stitching2410.lib opencv_superres2410.lib opencv_videostab2410.lib opencv_calib3d2410.lib opencv_contrib2410.lib opencv_core2410.lib opencv_features2d2410.lib opencv_flann2410.lib opencv_gpu2410.lib opencv_highgui2410.lib opencv_imgproc2410.lib opencv_legacy2410.lib opencv_ml2410.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\renderer.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Liu Hanchao\Desktop\renderer\Debug\renderer.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Liu Hanchao\Desktop\renderer\Debug\renderer.lib" /MACHINE:X86 Debug\renderer.exe.embed.manifest.res
+         Debug\camera.obj
+         Debug\main.obj
+         Debug\PathTracer.obj
+         Debug\scene.obj
+         Debug\spatialIndex.obj
+         Debug\Sphere.obj
+         Debug\Triangle.obj
+         Debug\utils.obj
+         Debug\Vec.obj
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\renderer.exe.embed.manifest" /manifest Debug\renderer.exe.intermediate.manifest
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\renderer.exe.embed.manifest.res" Debug\renderer_manifest.rc 
+       LinkEmbedManifest:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Liu Hanchao\Desktop\renderer\Debug\renderer.exe" /INCREMENTAL /NOLOGO opencv_ml2410d.lib opencv_calib3d2410d.lib opencv_contrib2410d.lib opencv_core2410d.lib opencv_features2d2410d.lib opencv_flann2410d.lib opencv_gpu2410d.lib opencv_highgui2410d.lib opencv_imgproc2410d.lib opencv_legacy2410d.lib opencv_objdetect2410d.lib opencv_ts2410d.lib opencv_video2410d.lib opencv_nonfree2410d.lib opencv_ocl2410d.lib opencv_photo2410d.lib opencv_stitching2410d.lib opencv_superres2410d.lib opencv_videostab2410d.lib opencv_objdetect2410.lib opencv_ts2410.lib opencv_video2410.lib opencv_nonfree2410.lib opencv_ocl2410.lib opencv_photo2410.lib opencv_stitching2410.lib opencv_superres2410.lib opencv_videostab2410.lib opencv_calib3d2410.lib opencv_contrib2410.lib opencv_core2410.lib opencv_features2d2410.lib opencv_flann2410.lib opencv_gpu2410.lib opencv_highgui2410.lib opencv_imgproc2410.lib opencv_legacy2410.lib opencv_ml2410.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\renderer.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Liu Hanchao\Desktop\renderer\Debug\renderer.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Liu Hanchao\Desktop\renderer\Debug\renderer.lib" /MACHINE:X86 Debug\renderer.exe.embed.manifest.res
+         Debug\camera.obj
+         Debug\main.obj
+         Debug\PathTracer.obj
+         Debug\scene.obj
+         Debug\spatialIndex.obj
+         Debug\Sphere.obj
+         Debug\Triangle.obj
+         Debug\utils.obj
+         Debug\Vec.obj
+         renderer.vcxproj -> C:\Users\Liu Hanchao\Desktop\renderer\Debug\renderer.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\renderer.unsuccessfulbuild”。
+         正在对“Debug\renderer.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\Liu Hanchao\Desktop\renderer\renderer\renderer.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.22

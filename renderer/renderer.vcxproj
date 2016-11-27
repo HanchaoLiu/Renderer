@@ -74,6 +74,26 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="camera.h" />
+    <ClInclude Include="object.h" />
+    <ClInclude Include="PathTracer.h" />
+    <ClInclude Include="scene.h" />
+    <ClInclude Include="spatialIndex.h" />
+    <ClInclude Include="Sphere.h" />
+    <ClInclude Include="Triangle.h" />
+    <ClInclude Include="utils.h" />
+    <ClInclude Include="Vec.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="camera.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="PathTracer.cpp" />
+    <ClCompile Include="scene.cpp" />
+    <ClCompile Include="spatialIndex.cpp" />
+    <ClCompile Include="Sphere.cpp" />
+    <ClCompile Include="Triangle.cpp" />
+    <ClCompile Include="utils.cpp" />
+    <ClCompile Include="Vec.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
