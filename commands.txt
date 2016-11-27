@@ -1,0 +1,14 @@
+git commands:
+
+<upload>
+
+git add .
+
+git commit -m "<note>"
+
+git push origin master
+
+
+<download>
+
+git pull
