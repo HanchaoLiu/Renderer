@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{74FB5C28-9AA8-4AA6-B0BD-2AF5862B01E9}</ProjectGuid>
+    <ProjectGuid>{75E7C1B4-CBAE-4443-B081-D134DF999D5F}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>pt</RootNamespace>
+    <RootNamespace>renderer</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -74,26 +74,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="camera.h" />
-    <ClInclude Include="object.h" />
-    <ClInclude Include="PathTracer.h" />
-    <ClInclude Include="scene.h" />
-    <ClInclude Include="spatialIndex.h" />
-    <ClInclude Include="Sphere.h" />
-    <ClInclude Include="Triangle.h" />
-    <ClInclude Include="utils.h" />
-    <ClInclude Include="Vec.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="camera.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="PathTracer.cpp" />
-    <ClCompile Include="scene.cpp" />
-    <ClCompile Include="spatialIndex.cpp" />
-    <ClCompile Include="Sphere.cpp" />
-    <ClCompile Include="Triangle.cpp" />
-    <ClCompile Include="utils.cpp" />
-    <ClCompile Include="Vec.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
